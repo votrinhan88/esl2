@@ -1,0 +1,13 @@
+name: esl2
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.11
+  - pip:
+      - matplotlib
+      - numpy
+      - pandas
+      - pyqt5
+      - scikit-learn
+      - torch
